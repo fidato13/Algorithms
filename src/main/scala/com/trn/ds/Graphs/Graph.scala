@@ -22,7 +22,7 @@ class Graph(verticesCount: Int, var adjacencyList: Array[LinkedList[Int]] = null
 }
 
 object Graph extends App{
-  val graph = new Graph(5) 
+  val graph = new Graph(5)  
 
   println()
 }
