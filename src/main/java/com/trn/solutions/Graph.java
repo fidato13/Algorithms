@@ -47,10 +47,10 @@ class Graph
         while (queue.size()!=0)
         {
             // Dequeue a vertex from queue and print it
-            s = queue.poll();
+           int  k = queue.poll();
 
             int n;
-            i = adj[s].listIterator();
+            i = adj[k].listIterator();
 
             // Get all adjacent vertices of the dequeued vertex s
             // If a adjacent has not been visited, then mark it
