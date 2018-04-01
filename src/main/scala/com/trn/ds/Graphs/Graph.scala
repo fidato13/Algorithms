@@ -18,11 +18,11 @@ class Graph(verticesCount: Int, var adjacencyList: Array[LinkedList[Int]] = null
     * This method will add edge from first vertex to second , behind the scene ->
     * since we are using BFS and in particular adjacency list to
     */
-  
+
 }
 
 object Graph extends App{
-  val graph = new Graph(5)
+  val graph = new Graph(5) 
 
   println()
 }
